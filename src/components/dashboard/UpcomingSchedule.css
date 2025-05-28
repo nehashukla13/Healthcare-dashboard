@@ -1,0 +1,65 @@
+.upcoming-schedule {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.schedule-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.day-schedule {
+  margin-bottom: 1.5rem;
+}
+
+.day-title {
+  font-size: 0.9rem;
+  color: #8a94a6;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.appointments-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.simple-appointment-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.appointment-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.25rem;
+}
+
+.appointment-time {
+  font-size: 0.8rem;
+  color: #8a94a6;
+}
+
+.appointment-icon {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .appointments-container {
+    grid-template-columns: 1fr;
+  }
+}

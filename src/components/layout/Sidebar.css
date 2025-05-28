@@ -1,0 +1,166 @@
+.sidebar {
+  width: 240px;
+  background-color: white;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 20px 0 0 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.logo-health {
+  color: #00C2A8;
+}
+
+.logo-care {
+  color: #6979F8;
+}
+
+.sidebar-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.section-title {
+  font-size: 0.8rem;
+  color: #8a94a6;
+  padding-left: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #8a94a6;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.menu-item:hover {
+  background-color: #f5f8fd;
+  color: #3a4276;
+}
+
+.menu-item.active {
+  background-color: #f0f7ff;
+  color: #3a4276;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(105, 121, 248, 0.1);
+}
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #3ABEF9;
+}
+
+.logo-text-accent {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0B0C38;
+}
+
+.nav-section {
+  margin-bottom: 2rem;
+}
+
+.nav-section-title {
+  font-size: 0.75rem;
+  color: #a0a0a0;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  text-transform: capitalize;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-item {
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+}
+
+.nav-item.active {
+  background-color: #f0f7ff;
+}
+
+.nav-item.active .nav-link {
+  color: #3a4276;
+  font-weight: 500;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  color: #666;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.nav-icon {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+}
+
+.nav-text {
+  font-size: 0.95rem;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  padding-left: 1rem;
+}
+
+.settings-button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.settings-icon {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.settings-section {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid #f0f0f0;
+}
