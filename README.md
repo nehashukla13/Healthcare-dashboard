@@ -1,4 +1,4 @@
-Healthcare Dashboard
+## Healthcare Dashboard
 
 A modern, responsive healthcare dashboard built with **React** and **Vite**. This project provides an interactive interface for tracking health data, appointments, activity, and more.
 
