@@ -23,9 +23,9 @@
 
 .dashboard-right {
   flex: 2.2;
-  display: flex;
+/*   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1.25rem; */
   background-color: white;
   border-radius: 20px;
   padding: 1rem;
